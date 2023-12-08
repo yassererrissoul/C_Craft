@@ -5,7 +5,7 @@
 int	main(void)
 {
     int i = 0;	
-    char ts[][13] = {"Hello World!", "Youbella", "SchooL", "1234", "42Dollar", "", "Tests"};
+    char ts[][13] = {"Hello World!", "Youbella", "SchooL", "C1234", "42Dollar", "", "Tests"};
     int ts2[] = {0, 1, 1, 0, 0, -1, 1};
     
     while (i < 7)
