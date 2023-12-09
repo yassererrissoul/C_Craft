@@ -29,6 +29,6 @@ alias even="run even";alias power="run power"
 alias str_is_alpha="run str_is_alpha";alias bindec="run bindec"
 alias upper_case="run upper_case";alias lower_case="run lower_case"
 alias atoi="run atoi";alias str_is_numbers="run str_is_numbers"
-alias hello="mr hello"
+alias hello="run hello"
 
 ##C Craft by youbella
