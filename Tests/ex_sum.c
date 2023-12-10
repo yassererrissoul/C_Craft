@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "../../ft_sum.c"
+#include "../../CCraft/ft_sum.c"
 
 int	main(void)
 {

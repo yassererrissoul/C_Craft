@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "../../ft_bindec.c"
+#include "../../CCraft/ft_bindec.c"
 
 int	main(void)
 {

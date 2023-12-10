@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "../../ft_digit.c"
+#include "../../CCraft/ft_digit.c"
 
 int	main(void)
 {

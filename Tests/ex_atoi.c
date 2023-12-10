@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "../../ft_atoi.c"
+#include "../../CCraft/ft_atoi.c"
 
 int	main(void)
 {
