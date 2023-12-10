@@ -27,12 +27,12 @@ up:
 
 #Hello
 su_hello:
-	@echo "\033[1m$(nf)\033[0mft_hello.c\n\033[1m$(ne)\033[0mhello\n\033[1m$(su)\033[0mWrite a program that displays a \"Hello World\" on the standard output.\n\033[1m$(af)\033[0mprintf - write."
+	@echo "\033[1m$(nf)\033[0mbg_hello.c\n\033[1m$(ne)\033[0mhello\n\033[1m$(su)\033[0mWrite a program that displays a \"Hello World\" on the standard output.\n\033[1m$(af)\033[0mprintf - write."
 hello:
-	@if [ -e ../../ft_hello.c ]; then \
+	@if [ -e ../../bg_hello.c ]; then \
 		$(pt) $(bash)hello.sh; \
 	else \
-		echo "\033[31mVerify that a file named \033[34mft_hello.c\033[0m"; \
+		echo "\033[31mVerify that a file named \033[34mbg_hello.c\033[0m"; \
 	fi
 
 #Sum
