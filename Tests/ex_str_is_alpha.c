@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "../../CCraft/ft_str_is_alpha.c"
+#include "../../ft_str_is_alpha.c"
 
 int	main(void)
 {

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "../../CCraft/ft_strlen.c"
+#include "../../ft_strlen.c"
 
 int	main(void)
 {

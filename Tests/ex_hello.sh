@@ -1,10 +1,10 @@
-gcc -w -fno-diagnostics-show-caret ../../CCraft/pg_hello.c -o pg_hello
+gcc -w -fno-diagnostics-show-caret ../../ft_hello.c -o ft_hello
 
 if [ $? != 0 ]; then
     echo -e "\033[31m\n--------------------------------------------------------------------------------------\nThere seems to be an error: Please check the exercise file in terms of Syntax.\n\033[0m"
     exit
 fi
-op="$(./pg_hello)"
+op="$(./ft_hello)"
 
 
 if [[ "$op" == "Hello World" ]]; then

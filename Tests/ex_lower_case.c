@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
-#include "../../CCraft/ft_lower_case.c"
+#include "../../ft_lower_case.c"
 
 int	main(void)
 {

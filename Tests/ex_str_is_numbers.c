@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "../../CCraft/ft_str_is_numbers.c"
+#include "../../ft_str_is_numbers.c"
 
 int	main(void)
 {

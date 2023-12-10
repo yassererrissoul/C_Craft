@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "../../CCraft/ft_saverge.c"
+#include "../../ft_saverge.c"
 
 int	main(void)
 {

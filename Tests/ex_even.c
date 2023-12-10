@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "../../CCraft/ft_even.c"
+#include "../../ft_even.c"
 
 int	main(void)
 {

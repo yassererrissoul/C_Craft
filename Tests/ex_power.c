@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "../../CCraft/ft_power.c"
+#include "../../ft_power.c"
 
 int	main(void)
 {
