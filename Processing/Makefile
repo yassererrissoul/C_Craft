@@ -2,7 +2,7 @@ pt = bash script/Ptests.sh &&
 com = gcc -w -fno-diagnostics-show-caret ../Tests/ex_
 bash = bash ../Tests/ex_
 er = -o ../Tests/ex && ../Tests/ex && rm ../Tests/ex || (echo "\033[31m\n--------------------------------------------------------------------------------------\nThere seems to be an error: Please check the exercise file in terms of Syntax and Prototype and verify that the main function does not exist in the exercise file.\n\033[0m")
-ex = "\033[32mhello\033[0m\033[34m - sum - digit - strlen - saverge - even - power - str_is_alpha - str_is_numbers - bindec - upper_case - lower_case - atoi\033[0m"
+ex = "\033[32mhello\033[0m\033[34m - sum - digit - strlen - saverge - even - power - str_is_alpha - str_is_numbers - bindec - upper_case - lower_case - atoi - \033[32mnum_ascii - num_alpha\033[0m"
 
 nf = "🚩 Required file: "
 ne = "📝 Exercise name: "
@@ -155,6 +155,25 @@ atoi:
 		echo "\033[31mVerify that a file named \033[34mft_atoi.c\033[0m"; \
 	fi
 
+#Ascii
+su_num_ascii:
+	@echo "\033[1m$(nf)\033[0mft_num_ascii.c\n\033[1m$(ne)\033[0mnum_ascii\n\033[1m$(su)\033[0mImplement a function that takes a character as an argument and return its ASCII value.\n\033[1m$(pr)\033[0m\n'''\nint ft_num_ascii(char c);\n'''\n\033[1m$(af)\033[0mNone."
+num_ascii:
+	@if [ -e ../../ft_num_ascii.c ]; then \
+		$(pt) $(com)num_ascii.c $(er); \
+	else \
+		echo "\033[31mVerify that a file named \033[34mft_num_ascii.c\033[0m"; \
+	fi
+
+#Num Alpha
+su_num_alpha:
+	@echo "\033[1m$(nf)\033[0mft_num_alpha.c\n\033[1m$(ne)\033[0mnum_alpha\n\033[1m$(su)\033[0mWrite a function that takes the letters of the alphabet and returns their corresponding numeric values. ° (return -1 for non-alphabetic characters)\nExample: 'c' > 3 | 'A' > 1.\n\033[1m$(pr)\033[0m\n'''\nint ft_num_alpha(char alpha);\n'''\n\033[1m$(af)\033[0mNone."
+num_alpha:
+	@if [ -e ../../ft_num_alpha.c ]; then \
+		$(pt) $(com)num_alpha.c $(er); \
+	else \
+		echo "\033[31mVerify that a file named \033[34mft_num_alpha.c\033[0m"; \
+	fi
 #--------------------------------------------------------------------------------------------------------------
 
 %:
