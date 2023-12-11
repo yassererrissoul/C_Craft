@@ -11,7 +11,7 @@ pr = "🔦 Will be prototyped as follows:"
 af = "🔗 Allowed function: "
 
 info:
-	@echo "\033[1mC Craft - Made by youbella\n\033[0mHello, here you can work on the available exercise.\nWith \033[34mex\033[0m you can view all existing exercise available to work on.\nTo start work on an exercise, you can use \033[34msu_name\033[0m to display the topic of an exercise and create a file with the required name and the required prototype. After that, \033[34mname\033[0m can be used to verify the validity of the exercise, whether it is correct or not.(\033[31mReplace the \033[34mname\033[31m with the name of the exercise\033[0m)\nif any software update accurs, you can type the following command: \033[34mup\033[0m";
+	@echo "\033[1mC Craft - Made by youbella\n\033[0mHello, here you can work on the available exercise.\nWith \033[34mex\033[0m you can view all existing exercise available to work on.\nTo start work on an exercise, you can use \033[34msu_name\033[0m to display the topic of an exercise and create a file with the required name and the required prototype. After that, \033[34mname\033[0m can be used to verify the validity of the exercise, whether it is correct or not.(\033[31mReplace the \033[34mname\033[31m with the name of the exercise\033[0m)\nif any software update accurs, you can type the following command: \033[34mup\033[0m"
 
 default:
 	@echo "\033[31mPlease add the name of an exercise or any available command.\033[0m"
